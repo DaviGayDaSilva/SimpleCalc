@@ -1,26 +1,20 @@
 # SimpleCalc
-SimpleCalc é 1 calculadora em python simples exclusivamente para calcular ou fazer filmes
-devido ao suspense que o codigo tem
 
-# Download
-Baixe indo para o codigo fonte e baixando!
+SimpleCalc é uma calculadora simples em Python que roda no terminal. Pergunta dois números ao usuário e exibe operações básicas: soma, subtração, multiplicação, divisão, potência, módulo, raiz quadrada e um cálculo de "porcentagem" (produto dividido por 100). O programa usa `time.sleep(2)` para criar um efeito de suspense.
 
-# Licença 
-Nâo Há Licença pois não precisa pois qualquer 1 pode modificar e fazer oque quiser!
+Como executar
 
-# Configuração de ambiente
-Primeiro Tem que baixar o python 3 com esse comando:
-`apt install python3`
-`python --version` para checar a versão pois é necessário python 3.6 no mínimo para rodar
+1. Tenha Python 3 instalado.
+2. No terminal, rode:
 
-# Uso
-Para Usar, você deve digitar o 1° numero e o 2° numero e ele começará a calcular
+   python3 calc.py
 
-# Caso Der Errado
-Seu python é antigo demais ou seu python não suporta f-string pra rodar
+Observações
 
-# Iniciar
-Para Iniciar, Digite:
-`python3 calc.py`
+- O programa atualmente lê números com `int()` (apenas inteiros).
+- Divisão ou módulo por zero causará erro na versão atual; tome cuidado ao usar 0 como segundo número.
+- A raiz quadrada de números negativos não é tratada (usa `math.sqrt`).
 
-E tá feito
+Contribuições
+
+Sinta-se à vontade para abrir issues ou enviar pull requests para melhorar o projeto (ex.: aceitar floats, tratar erros, adicionar menus).
